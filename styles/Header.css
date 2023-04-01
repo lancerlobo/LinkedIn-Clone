@@ -1,0 +1,50 @@
+.header {
+    /* position is sticky so that the header remains at the top even if we scroll down */
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    /* everything goes into a line because of flex */
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+    /* so that the header always remains on top */
+    z-index: 999;
+}
+
+.header-left {
+    display: flex;
+}
+
+/* header-left targeting img */
+.header-left > img {
+    /* maintaining it's aspect-ratio */
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+    background-color: #eef3f8;
+}
+
+.header-search > input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header-right {
+    display: flex;
+
+}
