@@ -7,6 +7,7 @@ The news section in the widgets section dynamically showcases new top headlines 
 Feel free to clone the application and build upon the UI and the backend.
 
 To run it locally: 
+(Initially make sure you have NodeJS installed)
 1) First clone the repo using "npm clone".
 2) Then download the node dependencies using "npm install".
 3) Then run "npm run dev" to run it locally in your computer's server.
